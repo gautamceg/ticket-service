@@ -1,0 +1,39 @@
+docker pull mysql:v
+
+docker run -t 5001:80
+
+@Bean
+@RestController
+@Service
+@PostConstruct
+@Repository
+====
+
+GET,
+PUT,
+POST
+
+401
+==============
+
+@Value("")
+==========
+ticket-service/v1
+1. Create ticket with task
+Http Method: POST
+ContentType: application/json
+URI - /v1/tickets
+Body -
+{
+
+
+}
+
+2. Get ticket with tasks
+uri - v1/tickets/task/{task-id}?start=0&offset=50&size=100
+
+
+JWT- header, body, signature
+JWS-
+
+
